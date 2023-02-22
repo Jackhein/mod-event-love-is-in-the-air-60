@@ -1,0 +1,85 @@
+Modified:
+	68607
+	68641
+	68821
+	68927
+	68934
+	68947
+	68948
+	68957
+Concerned but not modified:
+	68589
+	68614
+	68798
+	68946
+Unused and not modified:
+	75348
+	75351
+
+68607 - Alluring Perfume Spray: #apply aura
+-Modification:
+	col. 72: 2401	-> 241		; #1/10 Damage range over time
+	col. 73: 701	-> 71		; #1/10 Damage range each tick
+	col. 78: 10799	-> 1079		; #1/10 Damage minimum over time
+	col. 79: 3149	-> 314		; #1/10 Damage minimum each tick
+
+68948 - Irresistible Cologne Spray: #apply aura
+-Modification:
+	col. 72: 2401	-> 241		; #1/10 Damage range over time
+	col. 73: 701	-> 71		; #1/10 Damage range each tick
+	col. 78: 10799	-> 1079		; #1/10 Damage minimum over time
+	col. 79: 3149	-> 314		; #1/10 Damage minimum each tick
+
+68641 - Alluring Perfume:
+-Modification:
+	col. 72: 361	-> 41		; #1/10 Damage range
+	col. 78: 1619	-> 159		; #1/10 Damage minimum
+
+68947 - Irresistible Cologne: #triggered by spell 68946
+-Modification:
+	col. 72: 361	-> 41		; #1/10 Damage range
+	col. 78: 1619	-> 159		; #1/10 Damage minimum
+
+68957 - Unstable Reaction:
+-Modification:
+	col. 72: 251-> 51		; #1/10 Damage range over time
+	col. 78: 2374	-> 224		; #1/10 Damage range over time
+
+68821 - Chain Reaction:
+-Modification:
+	col. 72: 901	-> 91		; #1/10 Damage range
+	col. 78: 8549	-> 854		; #1/10 Damage minimum
+
+68927 - Concentrated Alluring Perfume Spill: #triggered by spell 68798
+-Modification:
+	col. 72: 501	-> 51		; #1/10 Damage range
+	col. 78: 2249	-> 224		; #1/10 Damage minimum
+
+68934 - Concentrated Irresistible Cologne Spill: #triggered by spell
+-Modification:
+	col. 72: 251	-> 21		; #1/10 Damage range
+	col. 78: 2374	-> 239		; #1/10 Damage minimum
+
+68589 - Ammuring Perfume: #trigger spell 68641
+-Modification:
+	None
+
+68614 - Concentrated Irresistible Cologne Spill: #trigger spell 68934
+-Modification:
+	None
+
+68798 - Concentrated Alluring Perfume Spill: #trigger spell 68927
+-Modification:
+	None
+
+68946 - Irresistible Cologne: #trigger spell 68947
+-Modification:
+	None
+
+75348 - Torpid Shadows: #unused
+-Modification:
+	None
+
+75351 - Torpid Shadows: #unused
+-Modification:
+	None
