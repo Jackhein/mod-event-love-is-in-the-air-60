@@ -12,6 +12,8 @@ Concerned but not modified:
 	68614
 	68798
 	68946
+	68965
+	68704
 Unused and not modified:
 	75348
 	75351
@@ -30,7 +32,7 @@ Unused and not modified:
 	col. 79: 10799	-> 1079		; #1/10 Damage minimum over time
 	col. 80: 3149	-> 314		; #1/10 Damage minimum each tick
 
-68641 - Alluring Perfume:
+68641 - Alluring Perfume: #triggered by spell 68589
 -Modification:
 	col. 73: 361	-> 41		; #1/10 Damage range
 	col. 79: 1619	-> 159		; #1/10 Damage minimum
@@ -55,12 +57,12 @@ Unused and not modified:
 	col. 73: 501	-> 51		; #1/10 Damage range
 	col. 79: 2249	-> 224		; #1/10 Damage minimum
 
-68934 - Concentrated Irresistible Cologne Spill: #triggered by spell
+68934 - Concentrated Irresistible Cologne Spill: #triggered by spell 68614
 -Modification:
 	col. 73: 251	-> 21		; #1/10 Damage range
 	col. 79: 2374	-> 239		; #1/10 Damage minimum
 
-68589 - Ammuring Perfume: #trigger spell 68641
+68589 - Alluring Perfume: #trigger spell 68641
 -Modification:
 	None
 
@@ -75,6 +77,14 @@ Unused and not modified:
 68946 - Irresistible Cologne: #trigger spell 68947
 -Modification:
 	None
+
+68965 - [DND] Lingering Fumes Targetting (starter):
+-Modification:
+    None
+
+68704 - Lingering Fumes:
+-Modification:
+    None
 
 75348 - Torpid Shadows: #unused
 -Modification:
