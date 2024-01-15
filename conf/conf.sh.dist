@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+#
+# CUSTOM
+#
+
+DB_CHARACTERS_CUSTOM_PATHS+=(
+	$MOD_EVENT_LOVE_IS_IN_THE_AIR_60_ROOT"/data/sql/db-characters/"
+)
+
+DB_WORLD_CUSTOM_PATHS+=(
+	$MOD_EVENT_LOVE_IS_IN_THE_AIR_60_ROOT"/data/sql/db-world/"
+)
+
+#
+# UPDATES
+#
+
+DB_CHARACTERS_UPDATE_PATHS+=(
+	$MOD_EVENT_LOVE_IS_IN_THE_AIR_60_ROOT"/data/sql/updates/char/"
+)
+
+DB_WORLD_UPDATE_PATHS+=(
+	$MOD_EVENT_LOVE_IS_IN_THE_AIR_60_ROOT"/data/sql/updates/world/"
+)
+
